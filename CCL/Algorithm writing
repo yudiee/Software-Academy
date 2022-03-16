@@ -1,0 +1,65 @@
+#Algorithm to add two numbers ...#
+ 
+ 1. start
+ 2. define the data type - integer 
+ 3. Input the first number and assign to a  variable – A 
+ 4. Input the second number and assign to a variable –B 
+ 5. Add the two numbers and assign to a variable – C
+ 6. C = A + B 
+ 7. print C 
+ 8. Stop
+ 
+ 
+ 
+ 
+ #..algorithm to find the factorial of a number# 
+ 1. start
+ 2.Input a positive integer number and assign to a variable – NUM
+ 3.Declare a variable – factorial and give it an initial value of 1
+ 4.Check that the user entered integer number and prompt them to try again if not.
+ 5.Initiate a loop 
+          while NUM is greater than zero
+               multiply factorial by NUM and store results in factorial
+                substract 1 from NUM 
+           End while loop
+6.Print out factorial 
+7.Stop 
+
+
+
+#..algorithm to find the Fibonacci sequence #
+1. start 
+2. Define the data type – integer
+3. Define the number of terms you want to calculate in the Fibonacci series - 5 
+4. Declare  variable A1, A2, A3, A4, A5
+5. Input a positive integer and assign to a variable – A1
+6. Input a positive integer and assign to a variable – A2
+7. Print A1 and A2
+8. Initiate a loop  
+         While A4 < A5 :
+                let sum = A1 + A2 and store sum in A3 
+                 A1 = A2 
+                 A2 = A3 
+                  sum = A1 + A2  and store sum in A4
+                  A1 = A3 
+                  A2 = A4 
+                  sum = A1 + A2 and store sum in A5
+           End loop
+9. Print A1,A2,A3,A4,A5
+  
+  
+  
+  
+  #..Write an algorithm to sort a given set of numbers (Bubble sort)#
+  
+1. start
+2. Define the data type 
+3. Write down the list of numbers and assign them to a variable – A
+4. Define how you want them to be sorted – ascending order.
+5. Check if each number in A is greater  than any other, if so, swap their positions
+6. Repeat until each number in A Is greater than the one preceding it .
+7. print A
+8. stop
+
+
+
